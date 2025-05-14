@@ -29,7 +29,7 @@ const doc = {
                     favoriteColor: { type: "string", example: "Blue" },
                     birthday: { type: "string", example: "January 1" }
                 },
-                required: ["firstName", "lastName", "email"]
+                required: ["firstName", "lastName", "email", "favoriteColor", "birthday"]
             }
         }
     }

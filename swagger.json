@@ -293,7 +293,9 @@
         "required": [
           "firstName",
           "lastName",
-          "email"
+          "email",
+          "favoriteColor",
+          "birthday"
         ]
       }
     }
