@@ -265,38 +265,6 @@
             "example": "January 1"
           }
         }
-      },
-      "ContactInput": {
-        "type": "object",
-        "properties": {
-          "firstName": {
-            "type": "string",
-            "example": "John"
-          },
-          "lastName": {
-            "type": "string",
-            "example": "Doe"
-          },
-          "email": {
-            "type": "string",
-            "example": "johndoe@example.org"
-          },
-          "favoriteColor": {
-            "type": "string",
-            "example": "Blue"
-          },
-          "birthday": {
-            "type": "string",
-            "example": "January 1"
-          }
-        },
-        "required": [
-          "firstName",
-          "lastName",
-          "email",
-          "favoriteColor",
-          "birthday"
-        ]
       }
     }
   }
