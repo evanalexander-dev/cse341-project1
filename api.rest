@@ -1,5 +1,35 @@
+### GET hello world
 GET http://localhost:3000 HTTP/1.1
-###
+
+### GET all contacts
 GET http://localhost:3000/contacts HTTP/1.1
-###
+
+### GET contact by id
 GET http://localhost:3000/contacts/681a954e208706a4867f8ef8 HTTP/1.1
+
+### POST contact
+POST http://localhost:3000/contacts HTTP/1.1
+Content-Type: application/json
+
+{
+    "firstName": "Ashley",
+    "lastName": "Weaver",
+    "email": "aWeaver@example.org",
+    "favoriteColor": "Brown",
+    "birthday": "June 19"
+}
+
+### PUT contact
+PUT http://localhost:3000/contacts/6824f0a0db8fc9855acda641 HTTP/1.1
+Content-Type: application/json
+
+{
+    "firstName": "Sarah",
+    "lastName": "Birch",
+    "email": "sBirch@example.org",
+    "favoriteColor": "Green",
+    "birthday": "December 12"
+}
+
+### DELETE contact
+DELETE http://localhost:3000/contacts/6824f0a0db8fc9855acda641 HTTP/1.1
