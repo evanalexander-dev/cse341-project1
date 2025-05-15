@@ -29,6 +29,7 @@
         "tags": [
           "Contacts"
         ],
+        "summary": "Get all contacts",
         "description": "Retrieve all contacts.",
         "responses": {
           "200": {
@@ -49,6 +50,7 @@
         "tags": [
           "Contacts"
         ],
+        "summary": "Create a new contact",
         "description": "Create a new contact.",
         "parameters": [
           {
@@ -110,6 +112,7 @@
         "tags": [
           "Contacts"
         ],
+        "summary": "Get contact by ID",
         "description": "Retrieve a specific contact by ID.",
         "parameters": [
           {
@@ -134,7 +137,8 @@
         "tags": [
           "Contacts"
         ],
-        "description": "Endpoint to update an existing contact by ID.",
+        "summary": "Update contact by ID",
+        "description": "Update an existing contact by ID.",
         "parameters": [
           {
             "name": "id",
@@ -201,7 +205,8 @@
         "tags": [
           "Contacts"
         ],
-        "description": "Endpoint to delete a contact by ID.",
+        "summary": "Delete contact by ID",
+        "description": "Delete a contact by ID.",
         "parameters": [
           {
             "name": "id",

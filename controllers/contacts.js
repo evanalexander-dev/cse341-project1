@@ -5,7 +5,7 @@ const controller = {};
 
 controller.getAll = async (req, res) => {
     //#swagger.tags=['Contacts']
-    //#swagger.operationId = 'Get all contacts'
+    //#swagger.summary = 'Get all contacts'
     //#swagger.description = 'Retrieve all contacts.'
     /*#swagger.responses[200] = {
         description: 'Successfully retrieved contacts',
@@ -21,6 +21,7 @@ controller.getAll = async (req, res) => {
 
 controller.getOne = async (req, res) => {
     //#swagger.tags=['Contacts']
+    //#swagger.summary = 'Get contact by ID'
     //#swagger.description = 'Retrieve a specific contact by ID.'
     /*#swagger.parameters['id'] = {
         description: 'ID of the contact',
@@ -40,6 +41,7 @@ controller.getOne = async (req, res) => {
 
 controller.create = async (req, res) => {
     //#swagger.tags=['Contacts']
+    //#swagger.summary = 'Create a new contact'
     //#swagger.description = 'Create a new contact.'
     /*#swagger.parameters['obj'] = {
         in: 'body',
@@ -79,7 +81,8 @@ controller.create = async (req, res) => {
 
 controller.update = async (req, res) => {
     //#swagger.tags=['Contacts']
-    //#swagger.description = 'Endpoint to update an existing contact by ID.'
+    //#swagger.summary = 'Update contact by ID'
+    //#swagger.description = 'Update an existing contact by ID.'
     /*#swagger.parameters['id'] = {
         description: 'ID of the contact to update',
         type: 'string',
@@ -124,7 +127,8 @@ controller.update = async (req, res) => {
 
 controller.delete = async (req, res) => {
     //#swagger.tags=['Contacts']
-    //#swagger.description = 'Endpoint to delete a contact by ID.'
+    //#swagger.summary = 'Delete contact by ID'
+    //#swagger.description = 'Delete a contact by ID.'
     /*#swagger.parameters['id'] = {
         description: 'ID of the contact to delete',
         type: 'string',
