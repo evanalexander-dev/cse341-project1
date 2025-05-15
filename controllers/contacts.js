@@ -5,7 +5,7 @@ const controller = {};
 
 controller.getAll = async (req, res) => {
     //#swagger.tags=['Contacts']
-    //#swagger.summary = 'Get all contacts'
+    //#swagger.operationId = 'Get all contacts'
     //#swagger.description = 'Retrieve all contacts.'
     /*#swagger.responses[200] = {
         description: 'Successfully retrieved contacts',
